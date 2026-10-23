@@ -1,0 +1,2 @@
+import mongoose from 'mongoose';
+const schema=new mongoose.Schema({student:{type:mongoose.Schema.Types.ObjectId,ref:'User',required:true},course:{type:mongoose.Schema.Types.ObjectId,ref:'Course',required:true},status:{type:String,enum:['active','paused','completed','revoked'],default:'active'},approvedBy:{type:mongoose.Schema.Types.ObjectId,ref:'User'},payment:{type:mongoose.Schema.Types.ObjectId,ref:'Payment'},notes:{type:String,default:''}}, {timestamps:true});schema.index({student:1,course:1},{unique:true});export const Enrollment=mongoose.model('Enrollment',schema);

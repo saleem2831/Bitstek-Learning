@@ -1,0 +1,2 @@
+import mongoose from 'mongoose';
+const schema=new mongoose.Schema({name:{type:String,required:true},email:{type:String,required:true},phone:{type:String,required:true},message:{type:String,default:''},type:{type:String,enum:['course','corporate'],default:'course'},courseId:{type:mongoose.Schema.Types.ObjectId,ref:'Course',default:null},status:{type:String,enum:['new','contacted','closed'],default:'new'}},{timestamps:true});export const Enquiry=mongoose.model('Enquiry',schema);

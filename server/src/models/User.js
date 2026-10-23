@@ -1,0 +1,4 @@
+import mongoose from 'mongoose';
+const schema=new mongoose.Schema({name:{type:String,required:true,trim:true,maxlength:120},email:{type:String,required:true,unique:true,lowercase:true,trim:true},passwordHash:{type:String,required:true,select:false},role:{type:String,enum:['admin','instructor','student','corporate'],required:true,default:'student'},phone:{type:String,trim:true},organization:{type:String,trim:true},active:{type:Boolean,default:true},mustChangePassword:{type:Boolean,default:true},tokenVersion:{type:Number,default:0},inviteTokenHash:{type:String,select:false},inviteExpiresAt:{type:Date,select:false}}, {timestamps:true});
+export const User=mongoose.model('User',schema);
+export const publicUser=(u)=>({id:String(u._id),name:u.name,email:u.email,role:u.role,phone:u.phone,organization:u.organization,active:u.active,mustChangePassword:u.mustChangePassword});

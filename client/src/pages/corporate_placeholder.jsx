@@ -1,0 +1,2 @@
+import React from 'react';import {PageTop,Panel} from '../components/PortalBits';
+export default function CorporatePlaceholder(){return <><PageTop eyebrow="CORPORATE WORKSPACE" title="Corporate training portal" description="A foundation for organization-specific learning and reporting."/><Panel title="Enterprise rollout"><p>Corporate team administration, bulk onboarding, and skill reports are planned for the next implementation phase. For the current version, admin-managed onboarding and courses are operational through the Admin and Student portals.</p></Panel></>}

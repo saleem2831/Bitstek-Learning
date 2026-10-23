@@ -1,0 +1,7 @@
+export function fail(message,status=400){const e=new Error(message);e.status=status;throw e;}
+export function validEmail(value){return typeof value==='string'&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)&&value.length<=254;}
+export function validObjectId(id){return /^[a-f\d]{24}$/i.test(String(id||''));}
+export function isHttpUrl(value){try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)}catch{return false}}
+export function validateVideo(provider,value){if(!['youtube','drive'].includes(provider)||!isHttpUrl(value))return false;const u=new URL(value);const h=u.hostname.toLowerCase().replace(/^www\./,'').replace(/^m\./,'');if(provider==='youtube')return ['youtube.com','youtu.be','youtube-nocookie.com'].includes(h);return ['drive.google.com','docs.google.com'].includes(h);}
+export function isTimezone(tz){try{new Intl.DateTimeFormat('en',{timeZone:tz});return true}catch{return false}}
+export function safeCourseInput(body){const fields=['title','category','summary','description','image','duration','level','featured','published','instructor','outcomes'];const result={};for(const k of fields)if(body[k]!==undefined)result[k]=body[k];if(result.title&&result.title.trim().length<3)fail('Title must have at least 3 characters.');if(result.summary&&result.summary.trim().length<5)fail('Summary is too short.');if(result.image&&!isHttpUrl(result.image))fail('Image must be an HTTP(S) URL.');if(result.outcomes&&!Array.isArray(result.outcomes))fail('Outcomes must be an array.');return result;}

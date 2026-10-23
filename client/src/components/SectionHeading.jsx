@@ -1,0 +1,2 @@
+import React from 'react';import {Link} from 'react-router-dom';import {ArrowUpRight} from 'lucide-react';
+export default function SectionHeading({eyebrow,title,description,href,linkText}){return <div className="section-heading"><div><span className="eyebrow">{eyebrow}</span><h2>{title}</h2>{description&&<p>{description}</p>}</div>{href&&<Link className="text-link" to={href}>{linkText||'View all'} <ArrowUpRight size={18}/></Link>}</div>}

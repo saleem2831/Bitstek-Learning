@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="334" height="320" viewBox="0 0 334 320" role="img" aria-label="Bitstek Learning Monochrome White Short Icon">
+<title>Bitstek Learning - Monochrome White - Short Icon</title>
+<defs>
+<linearGradient id="warm" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" stop-color="#BA4C08"/><stop offset="43%" stop-color="#F49C2C"/><stop offset="73%" stop-color="#FFCA5D"/><stop offset="100%" stop-color="#BD4908"/></linearGradient>
+<linearGradient id="warmReverse" x1="0%" y1="0%" x2="100%" y2="95%"><stop offset="0%" stop-color="#BA490C"/><stop offset="50%" stop-color="#FFC25A"/><stop offset="100%" stop-color="#DC6D13"/></linearGradient>
+<linearGradient id="purple" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" stop-color="#6A22C9"/><stop offset="47%" stop-color="#AB2CD8"/><stop offset="78%" stop-color="#F589F4"/><stop offset="100%" stop-color="#A718CA"/></linearGradient>
+<linearGradient id="purpleReverse" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#7D35E8"/><stop offset="75%" stop-color="#ED8EF2"/><stop offset="100%" stop-color="#A526DB"/></linearGradient>
+<linearGradient id="teal" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" stop-color="#008D95"/><stop offset="44%" stop-color="#42D9D8"/><stop offset="77%" stop-color="#10A4AC"/><stop offset="100%" stop-color="#4DECE5"/></linearGradient>
+<linearGradient id="tealReverse" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#008F9B"/><stop offset="70%" stop-color="#6BF7EA"/><stop offset="100%" stop-color="#16BABE"/></linearGradient>
+<linearGradient id="blue" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" stop-color="#183CE7"/><stop offset="48%" stop-color="#36B6FD"/><stop offset="70%" stop-color="#0342BE"/><stop offset="100%" stop-color="#47D8FE"/></linearGradient>
+<linearGradient id="blueBook" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#F4F6FF"/><stop offset="45%" stop-color="#C4CFEB"/><stop offset="51%" stop-color="#0097E7"/><stop offset="100%" stop-color="#20C5FF"/></linearGradient>
+<linearGradient id="chrome" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#FCFCFF"/><stop offset="45%" stop-color="#B1BDD9"/><stop offset="77%" stop-color="#E6EAF6"/><stop offset="100%" stop-color="#8C99BB"/></linearGradient>
+<linearGradient id="blueText" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#0F70E3"/><stop offset="54%" stop-color="#36BEFD"/><stop offset="100%" stop-color="#0791ED"/></linearGradient>
+<linearGradient id="gold" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" stop-color="#AD7C26"/><stop offset="33%" stop-color="#F3D376"/><stop offset="62%" stop-color="#C79739"/><stop offset="84%" stop-color="#F8D985"/><stop offset="100%" stop-color="#B17F27"/></linearGradient>
+<linearGradient id="goldReverse" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#AD7C26"/><stop offset="50%" stop-color="#FCE18A"/><stop offset="100%" stop-color="#B98523"/></linearGradient>
+</defs>
+<path d="M14 14 L14 305 L319 305 L319 14 L126 14 L126 74 L255 74 L256 75 L255 76 L256 77 L256 243 L255 244 L81 244 L80 243 L81 242 L80 241 L80 14 Z" fill="#FFFFFF" fill-rule="evenodd"/>
+<path d="M105 119 L104 120 L104 186 L107 188 L123 193 L145 204 L162 215 L162 145 L151 136 L133 127 L131 127 L128 125 L126 125 L116 121 Z" fill="#FFFFFF" fill-rule="evenodd"/>
+<path d="M229 119 L220 120 L219 121 L202 126 L195 130 L193 130 L180 137 L171 145 L171 215 L193 201 L197 200 L210 193 L226 188 L229 186 Z" fill="#FFFFFF" fill-rule="evenodd"/>
+</svg>

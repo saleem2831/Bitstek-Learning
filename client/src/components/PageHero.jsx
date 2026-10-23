@@ -1,0 +1,2 @@
+import React from 'react';import {Link} from 'react-router-dom';
+export default function PageHero({eyebrow,title,description}){return <section className="page-hero"><div className="container"><span className="breadcrumb"><Link to="/">Home</Link> <span>/</span> {eyebrow}</span><span className="eyebrow light">{eyebrow}</span><h1>{title}</h1><p>{description}</p></div><div className="hero-grid-texture"/></section>}
